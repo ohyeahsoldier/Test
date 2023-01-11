@@ -15,13 +15,10 @@ public class Client {
     private static Scanner input = new Scanner(System.in);
     public static void main (String[] args)  {
         while (true) {
-		    System.out.println(Color.GREEN_BACKGROUND + "🟩🟩🟩🐑");
-		    System.out.println(Color.GREEN_BACKGROUND + "🟩🟩🐑🟩");
-		    System.out.println(Color.GREEN_BACKGROUND + "🟩🐑🟩🟩");
-		    System.out.println(Color.GREEN_BACKGROUND + "🐑🟩🟩🟩");
-		    System.out.println(Color.GREEN_BACKGROUND + "🟩🟩🟩🟩");
-            
+		    //System.out.println(Color.GREEN_BACKGROUND + "🟩🟩🟩🐑");
             Tile[][] world = new Tile[5][5];
+
+            
 
             String INPUT = input.next();
             switch (INPUT) {
